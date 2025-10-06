@@ -1,0 +1,918 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Misc Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>xml;json;txt;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\3Dmodels">
+      <UniqueIdentifier>{e957f94c-0ae0-437f-a7aa-3b4bba0f0df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{00b64f6e-e673-4a53-bdab-6f4a6aeb03f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly">
+      <UniqueIdentifier>{c4996cc1-1f86-46f6-b80f-370fbc133aa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\core">
+      <UniqueIdentifier>{b181ed60-2e8d-4608-bb5a-f53632198439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\core\avr">
+      <UniqueIdentifier>{dea2637f-4e8e-4934-bdc8-aa445aeb07e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\core\debug">
+      <UniqueIdentifier>{2c534fbe-df7a-40ec-8fe4-a356f4060fb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\core\util">
+      <UniqueIdentifier>{371b97fe-bfc4-4db7-bbcd-c051aeda8776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\_micro-api-readonly\libraries">
+      <UniqueIdentifier>{15d49b29-2d93-4341-aa0f-ecd9335c6005}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\arduino folders read me.txt">
+      <Filter>Misc Files</Filter>
+    </None>
+    <None Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\memcpy-armv7m.S">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </None>
+    <None Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\memset.S">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SARCASM.ino" />
+    <ClCompile Include="src\tjpgd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DRV8834.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ESPCAM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\font_Arial_10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LedStrip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PowerCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SCommandResponder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SerialPacket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Servos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Servos_calibration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InitAll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FBSensors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\panic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\audioMAX98357A.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BasicMoves.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CubeRead.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CubeState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CubeOrientation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\craddlemove.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\font_SourceCodePro_AA4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\font_SourceCodePro_Bold_AA4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\font_SourceCodePro_It_AA4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sarcasm_bk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\intro_rubik.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\intro_face.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\intro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\charging_icon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AudioLed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RubikCube3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Minicube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\teensythread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\solveCube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sentences.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\nvs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\transition_tags.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\songs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sarcasm_bk_wink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sarcasm_bk_blink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shutDownSequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\faceAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sarcasm_bk_openmouth_blink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sarcasm_bk_closemouth_blink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sarcasm_bk_openmouth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sarcasm_bk_closemouth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LipSync.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xorshift32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\misc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mainLoop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\idleSolveAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BatteryAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sarcasm3DAnimations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DreamingAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RepeatSolvingAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\analog.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\AudioStream.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\bootdata.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\clockspeed.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\CrashReport.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\debugprintf.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\delay.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\digital.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\DMAChannel.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\eeprom.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\EventResponder.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\extmem.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\fuse.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\HardwareSerial.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\HardwareSerial1.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\HardwareSerial2.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\HardwareSerial3.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\HardwareSerial4.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\HardwareSerial5.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\HardwareSerial6.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\HardwareSerial7.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\HardwareSerial8.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\interrupt.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\IntervalTimer.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\IPAddress.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\keylayouts.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\libc.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\main.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\new.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\nonstd.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\Print.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\pwm.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\rtc.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\serialEvent.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\serialEvent1.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\serialEvent2.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\serialEvent3.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\serialEvent4.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\serialEvent5.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\serialEvent6.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\serialEvent7.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\serialEvent8.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\serialEventUSB1.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\serialEventUSB2.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\sm_alloc_valid.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\sm_calloc.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\sm_free.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\sm_hash.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\sm_malloc.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\sm_malloc_stats.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\sm_pool.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\sm_realloc.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\sm_realloc_i.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\sm_realloc_move.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\sm_szalloc.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\sm_util.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\sm_zalloc.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\startup.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\Stream.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\tempmon.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\Time.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\Tone.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_audio.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_desc.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_flightsim.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_inst.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_joystick.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_keyboard.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_midi.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_mouse.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_mtp.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_rawhid.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_seremu.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_serial.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_serial2.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_serial3.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_touch.c">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\WMath.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\WString.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\yield.cpp">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.SARCASM.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crc16_ccitt.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DRV8834.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ESPCAM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ESPCAMConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\font_Arial_10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Hardware.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PowerCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SCommandResponder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SerialPacket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Servos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tjpgd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InitAll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LedStrip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FBSensors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\panic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\audioMAX98357A.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BasicMoves.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CubeReadConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CubeRead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CubeState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CubeOrientation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\craddlemove.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\charging_icon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AudioLed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sarcasm_bk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sarcasm_voice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RubikCube3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Minicube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\intro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\teensythread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sentences.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nvs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\transition_tags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\songs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\solveCube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sarcasm_bk_blink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sarcasm_bk_wink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shutDownSequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\faceAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sarcasm_bk_openmouth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sarcasm_bk_openmouth_blink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sarcasm_bk_closemouth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sarcasm_bk_closemouth_blink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LipSync.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\xorshift32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\indexpicker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mainLoop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\idleSolveAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BatteryAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sarcasm3DAnimations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3Dmodels\bouton_noir_small.h">
+      <Filter>Header Files\3Dmodels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3Dmodels\bouton_rouge_small.h">
+      <Filter>Header Files\3Dmodels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3Dmodels\cam_small.h">
+      <Filter>Header Files\3Dmodels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3Dmodels\companion_cube.h">
+      <Filter>Header Files\3Dmodels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3Dmodels\companion_cube_texture.h">
+      <Filter>Header Files\3Dmodels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3Dmodels\cover_small.h">
+      <Filter>Header Files\3Dmodels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3Dmodels\cradle_small.h">
+      <Filter>Header Files\3Dmodels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3Dmodels\gripper_red_small.h">
+      <Filter>Header Files\3Dmodels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3Dmodels\gripper_small.h">
+      <Filter>Header Files\3Dmodels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3Dmodels\ILI9341_small.h">
+      <Filter>Header Files\3Dmodels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3Dmodels\mainframe_small.h">
+      <Filter>Header Files\3Dmodels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3Dmodels\reddots_small.h">
+      <Filter>Header Files\3Dmodels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3Dmodels\sarcasm_aconym_small_texture.h">
+      <Filter>Header Files\3Dmodels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3Dmodels\tumble_small.h">
+      <Filter>Header Files\3Dmodels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3Dmodels\usb_small.h">
+      <Filter>Header Files\3Dmodels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DreamingAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RepeatSolvingAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\Arduino.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\arm_common_tables.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\arm_const_structs.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\arm_math.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\AudioStream.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\avr_emulation.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\avr_functions.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\binary.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\Client.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\cmsis_gcc.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\core_cm7.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\core_cmInstr.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\core_id.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\core_pins.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\CrashReport.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\DMAChannel.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\elapsedMillis.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\EventResponder.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\FS.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\HardwareSerial.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\imxrt.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\inplace_function.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\IntervalTimer.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\IPAddress.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\Keyboard.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\keylayouts.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\math_helper.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\MIDIUSB.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\Mouse.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\pgmspace.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\pins_arduino.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\Print.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\Printable.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\Server.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\smalloc.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\smalloc_i.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\Stream.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\Udp.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_audio.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_desc.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_dev.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_flightsim.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_joystick.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_keyboard.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_midi.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_mouse.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_mtp.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_names.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_rawhid.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_seremu.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_serial.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\usb_touch.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\WCharacter.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\wiring.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\wiring_private.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\WProgram.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\WString.h">
+      <Filter>src\_micro-api-readonly\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\avr\eeprom.h">
+      <Filter>src\_micro-api-readonly\core\avr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\avr\interrupt.h">
+      <Filter>src\_micro-api-readonly\core\avr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\avr\io.h">
+      <Filter>src\_micro-api-readonly\core\avr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\avr\pgmspace.h">
+      <Filter>src\_micro-api-readonly\core\avr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\avr\power.h">
+      <Filter>src\_micro-api-readonly\core\avr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\avr\sleep.h">
+      <Filter>src\_micro-api-readonly\core\avr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\avr\wdt.h">
+      <Filter>src\_micro-api-readonly\core\avr</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\debug\printf.h">
+      <Filter>src\_micro-api-readonly\core\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\util\atomic.h">
+      <Filter>src\_micro-api-readonly\core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\util\crc16.h">
+      <Filter>src\_micro-api-readonly\core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\util\delay.h">
+      <Filter>src\_micro-api-readonly\core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Vindar\AppData\Local\arduino15\packages\teensy\hardware\avr\1.59.0\cores\teensy4\util\parity.h">
+      <Filter>src\_micro-api-readonly\core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="__vm\.Software.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

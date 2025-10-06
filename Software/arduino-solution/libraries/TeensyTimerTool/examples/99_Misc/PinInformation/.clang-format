@@ -1,0 +1,42 @@
+---
+Standard: Cpp11
+BasedOnStyle: LLVM
+
+IndentWidth: 4
+TabWidth: 4
+AccessModifierOffset: -3
+ColumnLimit: 0
+UseTab: Never
+
+AllowShortIfStatementsOnASingleLine: true
+AllowShortLoopsOnASingleLine : true
+AllowShortBlocksOnASingleLine: true
+IndentCaseLabels: true
+
+PointerAlignment: Left
+
+AlignTrailingComments: true
+
+NamespaceIndentation: All
+FixNamespaceComments: false
+
+IndentPPDirectives: AfterHash
+
+CompactNamespaces: true
+
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterStruct: true
+  AfterClass: true
+  AfterControlStatement: true
+  AfterNamespace: true
+  AfterFunction: true
+  AfterUnion: true
+  AfterExternBlock: false
+  AfterEnum: false
+  BeforeElse: false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: true
+  SplitEmptyNamespace: true
+
+IncludeBlocks: Merge

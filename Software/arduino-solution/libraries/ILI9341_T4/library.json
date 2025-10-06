@@ -1,0 +1,20 @@
+{
+  "name": "ILI9341_T4",
+  "keywords": "teensy, ILI9341, screen driver",
+  "description": "Optimized ILI9341 SPI driver with asynchronous DMA transfers, VSync screen tearing prevention and differential update support. For Teensy 4/4.1/micromod.",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/vindar/ILI9341_T4"
+  },
+  "authors":
+  {
+    "name": "Arvind Singh",
+    "url": "https://github.com/vindar/ILI9341_T4",
+    "maintainer": true
+  },
+  "homepage": "https://github.com/vindar/ILI9341_T4",
+  "version": "1.6.0",
+  "frameworks": "arduino",
+  "platforms": "teensy"
+}

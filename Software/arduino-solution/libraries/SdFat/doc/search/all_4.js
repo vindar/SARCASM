@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['data_75',['data',['../unioncache__t.html#ae675b7a3a87d809070de111d1d1f1d81',1,'cache_t']]],
+  ['datalength_76',['dataLength',['../class_ex_fat_file.html#abc1acc08645049680144c8c4bf2fe8ba',1,'ExFatFile']]],
+  ['datastartsector_77',['dataStartSector',['../class_fat_partition.html#a7e89ec91780f7dfa060b261c605bf2e5',1,'FatPartition::dataStartSector()'],['../class_fs_volume.html#a79cebeb23cb3cdaa06550475fe24272a',1,'FsVolume::dataStartSector()']]],
+  ['datealgorithmsv2_2eh_78',['DateAlgorithmsV2.h',['../_date_algorithms_v2_8h.html',1,'']]],
+  ['datetimecallback_79',['dateTimeCallback',['../class_sd_file.html#a2d78e6a8cedbf8ce545af68457b43bf1',1,'SdFile']]],
+  ['datetimecallbackcancel_80',['dateTimeCallbackCancel',['../class_sd_file.html#ad266770d0a779d1a528a3997aee5142d',1,'SdFile']]],
+  ['dayofweek_81',['dayOfWeek',['../_date_algorithms_v2_8h.html#ad0f944e9e57f39c70d4ea9603bf751c6',1,'DateAlgorithmsV2.h']]],
+  ['dayofyear_82',['dayOfYear',['../_date_algorithms_v2_8h.html#adb642affb769accb58795498d6dbf000',1,'DateAlgorithmsV2.h']]],
+  ['dayofyeartoday_83',['dayOfYearToDay',['../_date_algorithms_v2_8h.html#a2af31061808da25fedc7c95ef077d24b',1,'DateAlgorithmsV2.h']]],
+  ['dayofyeartomonth_84',['dayOfYearToMonth',['../_date_algorithms_v2_8h.html#ace3aeda851238cc12225886c43008a95',1,'DateAlgorithmsV2.h']]],
+  ['daysbeforemonth_85',['daysBeforeMonth',['../_date_algorithms_v2_8h.html#ac5c6fa4fe07847f656b3067a5526c079',1,'DateAlgorithmsV2.h']]],
+  ['dayssinceepoch_86',['daysSinceEpoch',['../_date_algorithms_v2_8h.html#afcc112b0cbcff25535debfb81aaca6ce',1,'DateAlgorithmsV2.h']]],
+  ['dbgclearstats_87',['dbgClearStats',['../class_sd_spi_card.html#ab6cf8283dee415d9217eb758e75a98ef',1,'SdSpiCard']]],
+  ['dbgfat_88',['dbgFat',['../class_fat_partition.html#a0af1e91a311180119b4a2c85d7e6e87e',1,'FatPartition']]],
+  ['dbgprintstats_89',['dbgPrintStats',['../class_sd_spi_card.html#abdb02df511072aefb465a22858d92e06',1,'SdSpiCard']]],
+  ['deactivate_90',['deactivate',['../class_sd_spi_arduino_driver.html#ae88a255f533e3acb41d1221025a69b55',1,'SdSpiArduinoDriver::deactivate()'],['../class_sd_spi_base_class.html#ae3a5ede781e390263382fcf7765d665d',1,'SdSpiBaseClass::deactivate()'],['../class_sd_spi_soft_driver.html#a05315e4128ae7263d9e68119d6ae4308',1,'SdSpiSoftDriver::deactivate()']]],
+  ['dec_91',['dec',['../classios__base.html#a2826aed005e7c1f6858060cddae7971a',1,'ios_base::dec()'],['../ios_8h.html#ada38ab90e22f0ebb638cb864a35c562d',1,'dec():&#160;ios.h']]],
+  ['destructor_5fcloses_5ffile_92',['DESTRUCTOR_CLOSES_FILE',['../_sd_fat_config_8h.html#a9a2b1ca4d91cff876f48deeaacbc33da',1,'SdFatConfig.h']]],
+  ['dir_93',['dir',['../unioncache__t.html#a04a7472d08f2545d6db7804c82c99d7c',1,'cache_t']]],
+  ['direntry_94',['dirEntry',['../class_fat_file.html#a2f4e9ab3056125b07f15d14ca26d5346',1,'FatFile']]],
+  ['dirindex_95',['dirIndex',['../class_ex_fat_file.html#aea5b18625a06892a03a8d17c66b71717',1,'ExFatFile::dirIndex()'],['../class_fat_file.html#a7f0d6488685dc3be61720caca49fa116',1,'FatFile::dirIndex()'],['../class_fs_base_file.html#a41626a85a4665db2400ee6e251c66afd',1,'FsBaseFile::dirIndex()']]],
+  ['dirpos_5ft_96',['DirPos_t',['../struct_dir_pos__t.html',1,'']]],
+  ['dirsize_97',['dirSize',['../class_fat_file.html#ae2ed15f05c9ccbce355e7a8d3ce8382d',1,'FatFile']]],
+  ['dirty_98',['dirty',['../class_fs_cache.html#af50f564561a2db190280769d4641147b',1,'FsCache']]],
+  ['dmpfile_99',['dmpFile',['../class_fat_file.html#a4f01d27954ae49aeb6888ac7302f55d9',1,'FatFile']]]
+];

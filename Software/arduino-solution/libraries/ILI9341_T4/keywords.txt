@@ -1,0 +1,97 @@
+# Syntax Coloring for ILI9341_T4
+
+# Datatypes (KEYWORD1)
+
+ILI9341_T4	KEYWORD1
+DiffBuffBase	KEYWORD1
+DiffBuff	KEYWORD1
+DiffBuffStatic	KEYWORD1
+ILI9341Driver	KEYWORD1
+StatsVar	KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+
+size	KEYWORD2
+printStats	KEYWORD2
+statsReset	KEYWORD2
+statsNbComputed	KEYWORD2
+statsNbOverflow	KEYWORD2
+statsOverflowRatio	KEYWORD2
+statsTime	KEYWORD2
+statsSize	KEYWORD2
+output	KEYWORD2
+begin	KEYWORD2
+selfDiagStatus	KEYWORD2
+printStatus	KEYWORD2
+setSpiClock	KEYWORD2
+getSpiClock	KEYWORD2
+setSpiClockRead	KEYWORD2
+getSpiClockRead	KEYWORD2
+setIRQPriority	KEYWORD2
+getIRQPriority	KEYWORD2
+sleep	KEYWORD2
+invertDisplay	KEYWORD2
+setRotation	KEYWORD2
+getRotation	KEYWORD2
+width	KEYWORD2
+height	KEYWORD2
+setRefreshMode	KEYWORD2
+getRefreshMode	KEYWORD2
+setRefreshRate	KEYWORD2
+getRefreshRate	KEYWORD2
+printRefreshMode	KEYWORD2
+setVSyncSpacing	KEYWORD2
+getVSyncSpacing	KEYWORD2
+setLateStartRatio	KEYWORD2
+getLateStartRatio	KEYWORD2
+resync	KEYWORD2
+setFramebuffer	KEYWORD2
+bufferingMode	KEYWORD2
+setDiffBuffers	KEYWORD2
+diffUpdateActive	KEYWORD2
+setDiffGap	KEYWORD2
+getDiffGap	KEYWORD2
+setDiffCompareMask	KEYWORD2
+getCompareMask	KEYWORD2
+clear	KEYWORD2
+update	KEYWORD2
+updateRegion	KEYWORD2
+waitUpdateAsyncComplete	KEYWORD2
+asyncUpdateActive	KEYWORD2
+overlayText	KEYWORD2
+overlayFPS	KEYWORD2
+statsNbFrames	KEYWORD2
+statsTotalTime	KEYWORD2
+statsFramerate	KEYWORD2
+statsCurrentFPS	KEYWORD2
+statsFPS	KEYWORD2
+statsCPUtimePerFrame	KEYWORD2
+statsUploadtimePerFrame KEYWORD2
+statsPixelsPerFrame	KEYWORD2
+statsRatioPixelPerFrame KEYWORD2
+statsTransactionsPerFrame	KEYWORD2
+statsDiffSpeedUp	KEYWORD2
+statsMarginPerFrame	KEYWORD2
+statsRealVSyncSpacing	KEYWORD2
+statsNbTeared	KEYWORD2
+statsRatioTeared	KEYWORD2
+printStats	KEYWORD2
+lastTouched	KEYWORD2
+readTouch	KEYWORD2
+setTouchCalibration	KEYWORD2
+getTouchCalibration	KEYWORD2
+calibrateTouch	KEYWORD2
+setTouchThreshold	KEYWORD2
+getTouchThreshold	KEYWORD2
+
+# Constants (LITERAL1)
+
+PORTRAIT_240x320	LITERAL1
+LANDSCAPE_320x240	LITERAL1
+PORTRAIT_240x320_FLIPPED	LITERAL1
+LANDSCAPE_320x240_FLIPPED	LITERAL1
+NO_BUFFERING	LITERAL1
+DOUBLE_BUFFERING	LITERAL1
+
+
+

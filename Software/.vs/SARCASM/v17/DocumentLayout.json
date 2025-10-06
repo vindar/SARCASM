@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programmation\\SARCASM\\Software\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7201DEE-BFBD-4ADB-8BD3-85153A2AA41E}|SARCASM.vcxproj|D:\\Programmation\\SARCASM\\Software\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E7201DEE-BFBD-4ADB-8BD3-85153A2AA41E}|SARCASM.vcxproj|solutionrelative:src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7201DEE-BFBD-4ADB-8BD3-85153A2AA41E}|SARCASM.vcxproj|D:\\Programmation\\SARCASM\\Software\\SARCASM.ino||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{E7201DEE-BFBD-4ADB-8BD3-85153A2AA41E}|SARCASM.vcxproj|solutionrelative:SARCASM.ino||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7201DEE-BFBD-4ADB-8BD3-85153A2AA41E}|SARCASM.vcxproj|D:\\Programmation\\SARCASM\\Software\\src\\CubeOrientation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E7201DEE-BFBD-4ADB-8BD3-85153A2AA41E}|SARCASM.vcxproj|solutionrelative:src\\CubeOrientation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d388a2f2-9e60-47ce-8c27-7f9931f108c3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\Programmation\\SARCASM\\Software\\src\\main.cpp",
+              "RelativeDocumentMoniker": "src\\main.cpp",
+              "ToolTip": "D:\\Programmation\\SARCASM\\Software\\src\\main.cpp",
+              "RelativeToolTip": "src\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-06T14:48:52.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SARCASM.ino",
+              "DocumentMoniker": "D:\\Programmation\\SARCASM\\Software\\SARCASM.ino",
+              "RelativeDocumentMoniker": "SARCASM.ino",
+              "ToolTip": "D:\\Programmation\\SARCASM\\Software\\SARCASM.ino",
+              "RelativeToolTip": "SARCASM.ino",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKcSURBVDhPlZM9aJ1lGIav532/JCc1vybHQygkLbE1UaiDhSKoiIsgWCkOFkTt4qq4iJ0Et3ZwLnTooLgqODgJDoI0bY0JBNtFRQ8k7cnJOeZ8Od/3/j4OdZDQFrzgWh7u\u002B94eiTnz\u002BeYWy1OT0/eq6tmgeY5HUIjpzTcamzc7u3uXz5xWufjTGs3xxurdqro0jOlFRRuHS/9FwI3b4voT441P/izLdbmyuTW10e1\u002B0ff\u002BbFY9nH8gIsL06Oj3qzMz5\u002BWDH3586fdy8E2d0qwgh7MPQRk1tlyamDhvOlU1163deN979pxjt67v62p63tHzjl33762u2XOOnvd0nRvrVNW86TvHfoj0faSwlteWFrmwcpLnmk2GMVHGxKm5Od5bOcnrx5ZoFAV9H9kPgb7zmDIEhikyZg0frj7Fk6J0drZ5o9Xkwoll3l4\u002BzlsLLfp3d1gk89HTK0wU9v54CBiXEiFnTs3OkIYHXLl9hxvlAZd\u002B/oVnHjvC81MTXL5xk7\u002BN5cvf/qB/UHJ6dpqQEz4ljMsZVYUYKVNCbEHDe4IIA\u002B8ZOI8fHaPwDlKiDJHsHKqKyxkTUkJU2ex2Ue959egC05OTvHt8iTvtNrfabd45tkgvJV5YaHHEO27d62CAkBN29uy51aT5zSqm4tfuLo\u002BnSAtY397mu06XjXJIPRiwOFKwPxjw9V9tOmIwItmofivLV6\u002BdC6pfAQ1VJaeIpIxaiyksIOSUkBRRBBkpMGIAwojI\u002B0ZD6EkINSEgMWIVjDFYVSREJARszhgxWBFMTBACEoLPIfSMhrCB99dxjv/pOiGs2cmXX6nJeUtjPKExtjRG0RiTxpgfoGqMjpTWUP04eX9bjn76GRQFqDZRzoDOAw/7KgHZQ1hDzA4p8g/ekLaPdv13DwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-10-06T14:47:41.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CubeOrientation.cpp",
+              "DocumentMoniker": "D:\\Programmation\\SARCASM\\Software\\src\\CubeOrientation.cpp",
+              "RelativeDocumentMoniker": "src\\CubeOrientation.cpp",
+              "ToolTip": "D:\\Programmation\\SARCASM\\Software\\src\\CubeOrientation.cpp",
+              "RelativeToolTip": "src\\CubeOrientation.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-06T14:48:05.561Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 347,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1972,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 169,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1a15ddbf-1345-4a6f-8e92-b7b6762d9e14}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{1a15ddbf-1345-4a6f-8e92-b7b6762d9e14}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 83,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{a8ac99a7-eb72-4564-9c33-9427101c4d66}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

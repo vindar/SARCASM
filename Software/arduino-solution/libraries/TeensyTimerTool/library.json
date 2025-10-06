@@ -1,0 +1,20 @@
+{
+  "name": "TeensyTimerTool",
+  "version": "1.4.1",
+  "keywords": "teensy, pjrc, timer, quad, gpt, tmr, pit, imxrt1062",
+  "description": "TeensyTimerTool is a library that provides a generic, easy to use interface to the hardware timers of the PJRC Teensy boards. In addition, it provides up to 20 highly efficient software timers that use the same interface. All timers can be used in periodic and one-shot mode. Currently the library supports the ARM T3.X and T4.0 boards. You can either pick a free timer from a pool or specify exactly which of the available hardware or software timer modules you want to use.",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/luni64/TeensyTimerTool"
+  },
+  "authors":
+  {
+    "name": "luni64",
+    "url": "https://github.com/luni64",
+    "maintainer": true
+  },
+  "homepage": "https://github.com/luni64/TeensyTimerTool",
+  "frameworks": "arduino",
+  "platforms": "Teensy"
+}

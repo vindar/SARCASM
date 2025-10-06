@@ -1,0 +1,20 @@
+{
+  "name": "espeak-ng_T4",
+  "keywords": "espeak, espeak-ng, teensy, Audio library, text-to-speech, TTS, speech, synthesizer",
+  "description": "Port of espeak-ng text-to-speech (TTS) engine for Teesny 4/4.1",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/vindar/espeak-ng_T4"
+  },
+  "authors":
+  {
+    "name": "Arvind Singh",
+    "url": "https://github.com/vindar/espeak-ng_T4",
+    "maintainer": true
+  },
+  "homepage": "https://github.com/vindar/espeak-ng_T4",
+  "version": "1.0.0",
+  "frameworks": "arduino",
+  "platforms": "teensy"
+}
