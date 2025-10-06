@@ -19,5 +19,10 @@ This repository contains the code and schematics of the build.
 - On-device TTS (espeak-ng) with a collection of sarcastic lines.
 - ...
 
+## Note
+A slight modification of Teensy's core is required in order for the whole code to fit in RAM. 
+
+Edit `cores/teensy4/usb_serial.c` and `cores/teensy4/usb_serial2.c` and, in each file, remove the DMAMEM attribute in front of the definition of the `txbuffer[]` and `rx_buffer[]` arrays. 
+
 ## Warning
 This is a work in progress. The repo is currently in a very messy and incomplete state (and will most likely stay that way until I find some time to work on it...). Sorry ! 
