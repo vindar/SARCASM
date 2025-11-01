@@ -7,6 +7,10 @@
 
 This repository contains the code and schematics of the build.
 
+Additional details may be found on the Teensy forum thread:
+
+https://forum.pjrc.com/index.php?threads/sarcasm-an-over-engineered-rubiks-cube-solving-robot.77338/
+
 ## Demo videos
 - Short clip: https://youtube.com/shorts/Xer4mPZZH8E
 - Full demo: https://youtu.be/WV52RtuWXk0
